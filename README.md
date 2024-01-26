@@ -59,7 +59,8 @@ Continued refinement of the training process, including fine-tuning hyperparamet
 Our innovative solution not only automates the detection of real estate objects on land plots but also contributes to substantial cost savings and more efficient urban planning. The combination of cutting-edge technologies and user-friendly web applications positions our project as a valuable tool for authorities and organizations involved in infrastructure development.
 
 ## Links
-[Figma](https://www.figma.com/file/3WrQJF6u9jIvaGD3BuMRUo/%D0%A1%D0%BE%D0%BB%D1%8F%D0%BD%D0%BA%D0%B0?type=design&node-id=0%3A1&mode=design&t=9R06rkoY65w08lza-1)
+[Figma design and presentation](https://www.figma.com/file/3WrQJF6u9jIvaGD3BuMRUo/%D0%A1%D0%BE%D0%BB%D1%8F%D0%BD%D0%BA%D0%B0?type=design&node-id=0%3A1&mode=design&t=9R06rkoY65w08lza-1)
+[News article about the winners](https://it.tularegion.ru/press_center/news/v-tule-vybrali-luchshikh-razrabotchikov-tulahackdays2023/)
 
 ## Developers
 
