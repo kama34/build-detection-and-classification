@@ -1,0 +1,427 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.ttf') format('ttf'),
+         
+}
+
+@font-face {
+    font-family: 'InterMedium';
+    src: url('/fonts/Inter-Medium.ttf') format('ttf'),
+         
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('/fonts/Inter-SemiBold.ttf') format('ttf'),
+         
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    height: 100%;
+}
+
+.left-block {
+    width: 272px;
+    /* height: 1024px; */
+    padding: 24px 0 24px 0;
+    border-radius: 12px 0 0 12px;
+    border: 0 solid #ddd;
+    border-right-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-block button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: #344054;
+    font-family: 'Inter';
+    font-size: 14px
+}
+
+.left-block .active{
+    background-color: #3DB4D4;
+}
+
+.left-block .container {
+    align-items: center;
+}
+
+.right-block {
+    width: 100%;
+    height: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* padding: 20px; */
+}
+
+.header {
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0 solid #ddd;
+    border-right-width: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.region-info {
+    font-family: 'InterMedium';
+    font-size: 14px;
+    color: #667185;
+}
+
+.photo-tiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 800px; /* Adjust as needed */
+}
+
+.photo-tile {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon {
+    /* width: 20px;
+    height: 20px; */
+    /* padding: 12px; */
+}
+
+.home {
+    width: 18.13px;
+    height: 17.55px;
+}
+
+.message {
+    width: 16.67px;
+    height: 15.21px;
+}
+
+.calendar {
+    width: 16.67px;
+    height: 17.5px;
+}
+
+.geo {
+    width: 13.11px;
+    height: 16.98px;
+}
+
+.setting {
+    width: 17.7px;
+    height: 18.31px;
+}
+
+.headphone {
+    width: 16.67px;
+    height: 16.25px;
+}
+
+.menu {
+    padding-left: 8px;
+}
+
+.search-input {
+    position: relative;
+    padding: 10px 10px 10px 40px; /* Внутренний отступ справа для текста и слева для иконки */
+    font-size: 14px; /* Размер шрифта */
+    color: #344054;
+    font-family: 'Inter';
+    border: 1px solid #ccc; /* Цвет рамки */
+    border-radius: 5px; /* Скругление углов */
+    outline: none; /* Убираем стандартный контур при фокусе */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+    background-image: url('/images/Icon_search.png'); /* Путь к вашей иконке */
+    background-size: 14px; /* Размер иконки */
+    background-repeat: no-repeat; /* Отключаем повторение иконки */
+    background-position: 10px center; /* Позиция иконки (10px от левого края и по центру по вертикали) */
+}
+
+/* При фокусе */
+.search-input:focus {
+    border-color: #007BFF; /* Изменяем цвет рамки при фокусе */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3); /* Изменяем тень при фокусе */
+}
+
+/* Прибитие к нижнему краю */
+.container.menu:last-child {
+    position: fixed;
+    width: 219.36px;
+    bottom: 10px; /* Выберите подходящее расстояние от нижнего края */
+}
+
+.container.menu:nth-last-child(2) {
+    width: 219.36px;
+    position: fixed;
+    bottom: 60px; /* Пример расстояния между двумя прибитыми блоками */
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+}
+
+.arrow {
+    width: 8.02px;
+    height: 15.83px;
+}
+
+.dividers {
+    width: 2px;
+    height: 32px;
+}
+
+.back {
+    font-family: 'InterSemiBold';
+    font-size: 16px;
+    color: #667185;
+}
+
+.wrapper_filter {
+    display: flex;
+
+}
+
+.filter {
+    width: 16px;
+    height: 16px;
+}
+
+.filter_text {
+    margin-left: 4px;
+    font-family: 'InterSemiBold';
+    font-size: 14px;
+    color: #667185;
+}
+
+.wrapper {
+    padding: 26px 36px 10px 26px;
+}
+
+.wrapper_description {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+}
+
+.city {
+    font-family: 'InterSemiBold';
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.code {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #667185;
+}
+
+.photo-tile img {
+    width: 100%; /* Сделать изображение 100% ширины родительского div */
+    height: auto; /* Автоматически рассчитывать высоту для поддержки соотношения сторон */
+    transition: filter 0.3s ease; /* Добавляем плавный переход для эффекта затемнения */
+}
+
+.photo-tile img.special {
+    width: 200%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.badge {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper_geo_kimovsk {
+    display: flex;
+}
+
+.geo_text {
+    padding-left: 4px;
+}
+
+.wrapper_photo {
+    width: 686px;
+    height: auto;
+}
+
+.photo-tile_second {
+    width: 686px;
+    height: auto;
+    background-color: #ddd;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo-tile_second img {
+    width: 686px;
+    height: auto;
+}
+
+.second_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 411px;
+    /* height: 159px; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFD8D8;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.content2 {
+    padding: 16px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+}
+
+.card_button:hover {
+    background-color: #0056b3;
+}
+
+.str {
+    font-family: 'InterSemiBold';
+    padding-top: 4px;
+}
+
+.str1 {
+    color: #344054;
+    font-family: 'InterSemiBold';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.str2, .str3 {
+    color: #475367;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.str4, .str5 {
+    color: #475367;
+    font-family: 'Inter';
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red_str {
+    font-family: 'InterMedium';
+    font-size: 18px;
+    color: #FF6464;
+}
+
+.point {
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #475367;
+    margin: 0 4px;
+}
+
+.scrollable {
+    width: auto; /* Укажите желаемую ширину блока */
+    height: 650px; /* Укажите желаемую высоту блока */
+    overflow-y: scroll; /* Включить вертикальный скролл */
+
+}
