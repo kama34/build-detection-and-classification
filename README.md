@@ -15,71 +15,48 @@
 </p>
 
 ## About
-
-2-3 sentences
+Our project aims to automate the detection and classification of real estate objects on land plots, significantly improving the efficiency of identifying structures and aiding in urban planning. The implemented solution boasts a precision of 81.52% (mAP) and includes a user-friendly web application.
 
 ## Documentation
 
 ### Introduction
-1-2 sentences
+Our project leverages advanced technologies to streamline the process of identifying and categorizing real estate structures on registered land plots. By utilizing computer vision and machine learning, we have developed a robust solution that reduces the need for manual field inspections.
 
 ### Overview
-1-2 sentences
+The system analyzes satellite imagery and aerial photos to identify existing structures and ongoing construction activities on designated land parcels. The resulting information can be invaluable for urban planning and infrastructure development.
 
 ### Goals and Objectives
-  * 1 sentences
-
-  * 1 sentences
-
-  * 1 sentences
-
-  * 1 sentences
-
+- Enhance the efficiency of identifying structures on registered land plots.
+- Classify structures into categories such as residential, commercial, agricultural, etc.
+- Achieve a precision level of at least 81.52% (mAP).
+- Reduce on-site visits by employees by 76%.
 
 ### Technologies and Tools
-  * 1 name Technologie
-  * 1 name Technologie
-  * 1 name Technologie
-  * 1 name Technologie
-  * 1 name Tools
-  * 1 name Tools
-  * 1 name Tools
+- PyTorch: Deep learning framework for model development.
+- Pandas: Data manipulation and analysis.
+- NumPy: Numerical computing for efficient data handling.
+- Roboflow: Platform for managing and preprocessing image data.
+- YOLO: Object detection algorithm.
+- OpenCV: Computer vision library for image processing.
+- HTML, CSS, JS: Web development tools for creating the user interface.
 
 ### Model description
-1-2 sentences
+Our model is based on the YOLO algorithm, which allows for real-time object detection in images. The system is trained to identify and classify various types of structures, providing valuable insights into land usage.
 
 ### Model Architecture
-The architecture of the baseline model is as follows:
-
+The baseline model architecture follows the YOLO principles, utilizing a convolutional neural network (CNN) to process images and predict bounding boxes and class probabilities for detected objects.
 
 ### Training
-1-2 sentences
-
-### If we have another model or improve previous models
-1-2 sentences
+The model is trained on a diverse dataset comprising satellite imagery and aerial photos. The training process involves optimizing the model's weights to accurately predict object locations and classifications.
 
 ### Improve Model Architecture
-1-2 sentences
+To enhance the model's accuracy, future iterations may explore incorporating additional layers or utilizing more advanced architectures, such as CNN variants.
 
-### Improve model Training
-1-2 sentences
-
-### If we have another action on code then we can description here
-1-3 section and in each section need write 1-2 sentences 
+### Improve Model Training
+Continued refinement of the training process, including fine-tuning hyperparameters and augmenting the dataset, will contribute to further improving the model's performance.
 
 ### Conclusion
-  * 1 sentence
-
-  * 1 sentence
-  * 1 sentence
-
-  * 1 sentence
-
-  * 1 sentence
-
-  * 1 sentence
-
-  * 1 sentence
+Our innovative solution not only automates the detection of real estate objects on land plots but also contributes to substantial cost savings and more efficient urban planning. The combination of cutting-edge technologies and user-friendly web applications positions our project as a valuable tool for authorities and organizations involved in infrastructure development.
 
 ## Developers
 
@@ -87,6 +64,11 @@ The architecture of the baseline model is as follows:
       - [GitHub](https://github.com/kama34)
       - [Email](mailto:kamyshnikovdmitri@yandex.ru)
       - [Telegram](https://t.me/+79101663108)
+  
+- Ninel Yunusova :
+      - [GitHub](https://github.com/Ninelco)
+      - [Email](mailto:ninel.gabdullina@yandex.ru)
+      - [Telegram](https://t.me/+79378389858)
 
 ## License
-Project kama34.NameProject is distributed under the MIT license.
+Project kama34.BuildDetectionAndClassification is distributed under the MIT license.
