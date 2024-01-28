@@ -66,13 +66,13 @@ Our innovative solution not only automates the detection of real estate objects 
 
 - Kamyshnikov Dmitrii :
       - [GitHub](https://github.com/kama34)
-      - [Email](mailto:kamyshnikovdmitri@yandex.ru)
-      - [Telegram](https://t.me/+79101663108)
+      - [Email](mailto:d.kamyshnikov.offer@yandex.ru)
+      - [Telegram](https://t.me/kama_34)
   
 - Ninel Yunusova :
       - [GitHub](https://github.com/Ninelco)
       - [Email](mailto:ninel.gabdullina@yandex.ru)
-      - [Telegram](https://t.me/+79378389858)
+      - [Telegram](https://t.me/Ninelcozaurus)
 
 ## License
 Project kama34.BuildDetectionAndClassification is distributed under the MIT license.
