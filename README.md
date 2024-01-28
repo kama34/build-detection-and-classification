@@ -1,17 +1,14 @@
 <p align="center">
-      <!--<img src="https://i.ibb.co/QXcDJf1/icon.png">-->
-      <!--<img src="https://i.ibb.co/HXmkX96/icon-grey.png">-->
-      <!--<img src="https://i.ibb.co/KDCSnyg/icon-white.png">-->
       <img src="https://i.ibb.co/Hqsb5pZ/9162516-home-map-location-placeholder-street-icon.png">
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Pandas-lavender" alt="Pandas">
-   <img src="https://img.shields.io/badge/NumPy-thistle" alt="NumPy">
-   <img src="https://img.shields.io/badge/Matplotlib-lightcyan" alt="Matplotlib">
-   <img src="https://img.shields.io/badge/Torch-thistle" alt="Torch">
-   <img src="https://img.shields.io/badge/CNN-lightcyan" alt="CNN">
-   <img src="https://img.shields.io/badge/Torchvision-lavender" alt="Torchvision">
+   <img src="https://img.shields.io/badge/PyTorch-lavender" alt="PyTorch">
+   <img src="https://img.shields.io/badge/Pandas-thistle" alt="Pandas">
+   <img src="https://img.shields.io/badge/NumPy-lightcyan" alt="NumPy">
+   <img src="https://img.shields.io/badge/Roboflow-thistle" alt="Roboflow">
+   <img src="https://img.shields.io/badge/YOLO-lightcyan" alt="YOLO">
+   <img src="https://img.shields.io/badge/OpenCV-lavender" alt="OpenCV">
 </p>
 
 ## About
